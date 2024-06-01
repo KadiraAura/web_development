@@ -1,0 +1,113 @@
+body{background-color: gold;}
+img{width: 100%; display: block;}
+div.imgframe{
+    border:inset 20px chocolate; 
+    width: 500px; 
+    margin:auto;
+    position: relative;
+}
+.imgtitle{
+    position: absolute;
+    top: 50%;
+    bottom: 30;
+    right: 25%;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(250, 250, 160);
+    color: rgb(43, 111, 170);
+}
+/*---- z-index----*/ 
+.imgframe2{
+    border:inset 20px chocolate; 
+    width: 700px; 
+    margin:auto;
+    position: relative;
+    z-index: 0;
+}
+.imgtitle2{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    bottom: 30;
+    right: 25%;
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(250, 250, 160, 0.5);
+    color: rgb(43, 111, 170);
+}
+.imgparag{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    color: rgb(255, 240, 127);
+    font-size: 30px;
+}
+.imglink{
+    position: absolute;
+    bottom: 10% ;
+    left: 40%;
+    right: 40%;
+    text-align: center;
+    color:cornflowerblue;
+    padding: 10px 20px;
+    background-color: cornsilk;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.imglink:hover{
+    background-color: black;
+    box-shadow: -10px -10px 5px green;
+}
+/*----CARD---*/ 
+.sectioncard{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px grey;
+    transition: ease-in-out 300ms;
+    overflow: hidden;
+    margin: 20px;
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cardlink{
+    color: crimson;
+    font-weight: 900;
+    text-decoration: none ;
+    padding: 12px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    transition:ease-in-out 200ms;
+    display: none;
+}
+.cardinfo{
+    padding: 12px;
+}
+.cardlink:hover{
+    background-color: aliceblue;
+    color: darkblue;
+}
+.card:hover .cardlink{
+    display: inline;
+}
+.portraitcard{
+    position: relative;
+}
+.portraitinfo{
+    position: absolute;
+    top: 10%;
+    left:5%;
+    right: 5%;
+    text-align: center;
+}
