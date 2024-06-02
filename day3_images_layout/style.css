@@ -93,6 +93,7 @@ div.imgframe{
 }
 .cardinfo{
     padding: 12px;
+    
 }
 .cardlink:hover{
     background-color: aliceblue;
@@ -107,7 +108,7 @@ div.imgframe{
 .portraitinfo{
     position: absolute;
     top: 10%;
-    left:5%;
-    right: 5%;
+    left:2%;
+    right: 2%;
     text-align: center;
 }
