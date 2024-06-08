@@ -1,0 +1,122 @@
+html{scroll-behavior: smooth;}
+.header{
+    border: solid 1px red;
+    display:flex;
+}
+.headerlink{
+    width:20%;
+    display:block;
+    font-size:50px;
+    text-align:center;
+    text-decoration:none;
+    transition: ease-in-out 300ms;
+}
+.headerlink:hover{
+    opacity: 0.6;
+    transform: translateX(-20px) scale(1.2);
+}
+.headertitle{
+    width: 79%;
+    color: rgba(255, 0, 217, 0.581);
+    text-align: center;
+}
+/*------ SITELINKS-----*/
+.sitelinks{
+    background-color:rgba(255, 0, 217, 0.581) ;
+    display: flex;
+    justify-content: center;
+}
+.navlink{
+    display: inline-block;
+    text-align: center;
+    padding: 1em 2em;
+    width: 33.3%;
+    color:white;
+}
+.navlink:hover{
+    background-color: rgb(182, 255, 249);
+    border: dashed 1px gray;
+    color: pink;
+}
+/*==== MAIN BORDER====*/ 
+.mainbody{
+    border:solid green 1px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.main_div{ 
+    border:solid orange 1px;
+    width: 66%;
+}
+.pagelinks{
+    border:solid blue 1px;
+    width: 30%;
+}
+.main_div section{
+    background-color: rgb(250, 230, 240);
+    padding: 1em 2em;
+}
+.main_div article{
+    background-color: azure;
+    padding: 1em 2em
+}
+/*--- PAGELINKS---*/
+.pagelinks{
+    color: rgba(255, 0, 187, 0.543);
+    padding: 1em;
+    text-align: right;
+}
+.linknav{
+    border-bottom: 1px black dotted ;
+    display: block;
+    padding: 1em;
+    text-align: right;
+    text-decoration:none; 
+    color: rgb(182, 255, 249);
+}
+.linknav:hover{
+    color: rgb(141, 178, 242);
+    font-weight: 900;
+}
+/*======FIGURE=======*/
+img{width: 100%; display: block;}
+.figureimg{
+    width: 70%;
+    margin: 2% auto;
+    position:relative;
+    box-shadow:  1px 1px 5px black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.imgtitle{
+    position:absolute;
+    top: 10%;
+    left:5%;
+    right:5%;
+    text-align: center;
+}
+/*========FOOTER=====*/
+.contact{
+    background-color: rgb(11, 11, 63);
+    color: whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+.contactcolum{
+    width: 33%;
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+}
+.followicon{
+    width: 20px;
+    display: inline-block;
+    padding-right: 1em;
+    opacity: 0.6;
+}
+.followicon:hover{
+    opacity: 1;
+}
