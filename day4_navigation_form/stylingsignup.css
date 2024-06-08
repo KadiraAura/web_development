@@ -17,12 +17,15 @@
 }
 /*======FORM=====*/
 .form{
-    background-color: pink;
     padding: 20px;
 }
 .form fieldset{
     width: 700px;
     padding: 10px;
+    background-color: cornsilk;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 12px;
+    margin: 5% auto;
 }
 .formlegend{
     text-align: center;
