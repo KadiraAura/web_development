@@ -1,0 +1,58 @@
+
+.centered-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: rgb(241, 30, 30);
+}
+
+.form{
+   margin: auto;
+   color: white;
+}
+.form fieldset {
+    width: 700px;
+    padding: 2%;
+    background-color: rgb(241, 30, 30);
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 12px;
+    margin: 5 auto; 
+    border: none;
+
+}
+
+.formlegend {
+    text-align: center;
+    color:rgb(255, 14, 14);
+    background-color: white;
+    border: ridge 2px rgb(255, 14, 14);
+    width: 100%;
+    padding: 12px;
+    font-size: 30px;
+    margin: 5% auto; 
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.control {
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.control label {
+    padding: 10px;
+}
+
+.control input[type="text"],
+.control input[type="range"],
+.control input[type="date"],
+.control textarea {
+    width: 100%;
+    padding: 10px;
+}
+

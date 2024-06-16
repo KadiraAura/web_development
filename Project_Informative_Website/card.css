@@ -1,0 +1,65 @@
+
+/*----CARD---*/ 
+.sectioncard{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+
+}
+.card {
+    width: 300px; 
+    box-sizing: border-box;
+    background-color: white; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    align-items: center; 
+    text-align: center; 
+    margin: 20px;
+}
+.descof{
+    font-size: larger;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cardlink{
+    color: crimson;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 12px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    transition:ease-in-out 200ms;
+    display: none;
+    font-size:x-small;
+}
+.cardinfo{
+    padding: 16px;
+
+}
+.cardlink:hover{
+    background-color: aliceblue;
+    color: darkblue;
+}
+.card:hover .cardlink{
+    display: inline;
+}
+.portraitcard{
+    position: relative;
+}
+.portraitinfo{
+    position: absolute;
+    top: 10%;
+    left:2%;
+    right: 2%;
+    text-align: center;
+}
